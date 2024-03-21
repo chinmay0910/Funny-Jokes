@@ -1,0 +1,75 @@
+.logo {
+    width: 45%;
+    height: 80px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.onClick-dark:hover {
+    color: black;
+}
+
+.main{
+    background-color: rgb(244, 244, 244);
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:unset;
+}
+.main_heading{
+    text-align: center;
+    padding-top: 10%;
+    font-weight: 900;
+  }
+
+.Context{
+    text-align: center;
+}
+
+.main hr{
+    width: 80%;
+    margin:auto;
+  }
+
+.main button{
+    width: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    left: 30%;
+    top: 10px;
+}
+
+.main button:hover{
+    background-color: rgb(4, 4, 65);
+    color: white;
+}
+
+.main-prt2 {
+    background-color: white;
+    border: 1px solid black;
+    width: 60%;
+    height: 210px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+#joke{
+    color: red;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    padding: 1em;
+    display: flex;
+    color: white;
+}
+
+#copyright {
+    text-align: right;
+}

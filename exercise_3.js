@@ -1,0 +1,10 @@
+let story_array = ["Why couldn't the bicycle stand up by itself? Because it was two-tired.","What did the grape say when it got stepped on? Nothing, it just let out a little wine.","Why did the tomato turn red? Because it saw the salad dressing.","Why don't scientists trust atoms? Because they make up everything.","Did you hear about the guy who invented Lifesavers? They say he made a mint.","Why did the scarecrow win an award? Because he was outstanding in his field.","Why don't ghosts like rain? It dampens their spirits.","Why did the man put his money in the freezer? He wanted cold hard cash.","What do you call a fake noodle? An impasta.","How does a penguin build its house? Igloos it together.","Why did the cookie go to the doctor? Because it felt crummy.","What do you call a belt made out of watches? A waist of time.","Why don't ants get sick? They have tiny ant-bodies.","What do you call a bear with no teeth? A gummy bear.","What did one wall say to the other wall? I'll meet you at the corner.","What do you give a sick bird? Tweetment.","Why did the chicken cross the playground? To get to the other slide.","How do you make a tissue dance? You put a little boogey in it.","Why couldn't the bicycle stand up by itself? Because it was two-tired.","What did the janitor say when he jumped out of the closet? Supplies!","Why was the math book sad? Because it had too many problems.","Why did the man run around his bed? Because he was trying to catch up on his sleep.","What do you call a lazy kangaroo? A pouch potato.","Why did the coffee file a police report? It got mugged.","What do you call a snobbish criminal going downstairs? A condescending con descending.","Why did the tomato turn red? Because it saw the salad dressing.","What do you get from a pampered cow? Spoiled milk.","How do you organize a space party? You planet.","Why did the bicycle fall over? It was two."]
+
+
+function getRandom_Joke() {
+    let n = Math.floor(Math.random()*30);
+    let joke = story_array[n+1];
+    document.getElementById("joke").innerHTML = '';
+    document.getElementById("joke").innerHTML = joke;
+    // console.log(joke);
+} 
